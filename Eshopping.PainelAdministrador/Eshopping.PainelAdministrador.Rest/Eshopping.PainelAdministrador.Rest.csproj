@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="DapperExtensions.DotnetCore" Version="1.0.1" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Npgsql" Version="5.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eshopping.PainelAdministrador.Data\Eshopping.PainelAdministrador.Data.csproj" />
+    <ProjectReference Include="..\Eshopping.PainelAdministrador.Logic\Eshopping.PainelAdministrador.Logic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="JsDesenvolvimento.Data">
+      <HintPath>..\..\..\JsDesenvolvimento.Data\JsDesenvolvimento.Data\bin\Debug\netcoreapp2.2\JsDesenvolvimento.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="JsDesenvolvimento.Eshopping.Api.Authentication">
+      <HintPath>..\..\..\E-shopping\E-shopping\Api\JsDesenvolvimento.Eshopping.Api.Authentication\bin\Debug\netcoreapp2.2\JsDesenvolvimento.Eshopping.Api.Authentication.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
