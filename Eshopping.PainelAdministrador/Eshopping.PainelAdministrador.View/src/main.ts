@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
-import { IApiClient, ApiClient } from 'src/infraestrutura/apiClient';
+import { IApiClient, ApiClient } from './infraestrutura/apiClient';
 
 Vue.config.productionTip = true;
 
