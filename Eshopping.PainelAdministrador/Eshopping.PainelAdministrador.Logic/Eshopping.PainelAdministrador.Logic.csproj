@@ -19,4 +19,10 @@
     <ProjectReference Include="..\Eshopping.PainelAdministrador.Data\Eshopping.PainelAdministrador.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="JsDesenvolvimento.Eshopping.Api.Authentication">
+      <HintPath>..\..\..\E-shopping\E-shopping\Api\JsDesenvolvimento.Eshopping.Api.Authentication\bin\Debug\netcoreapp2.2\JsDesenvolvimento.Eshopping.Api.Authentication.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

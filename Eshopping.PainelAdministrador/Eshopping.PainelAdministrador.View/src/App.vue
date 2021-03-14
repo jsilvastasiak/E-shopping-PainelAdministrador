@@ -1,19 +1,21 @@
 <template>
     <div id="app">
-        <Home msg="Hello world!" />
+        <MasterPage>
+        </MasterPage>
     </div>
 </template>
 
 <script lang="ts">
     import { Component, Vue } from 'vue-property-decorator';
-    import Home from './components/Home.vue';
+    import MasterPage from './views/commons/MasterPage.vue';
 
     @Component({
         components: {
-            Home
+            MasterPage
         }
     })
-    export default class App extends Vue { }
+    export default class App extends Vue {
+    }
 </script>
 
 <style>

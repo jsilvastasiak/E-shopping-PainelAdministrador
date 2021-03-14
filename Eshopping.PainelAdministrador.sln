@@ -3,13 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1082
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshopping.PainelAdministrador.Data", "Eshopping.PainelAdministrador\Eshopping.PainelAdministrador.Data\Eshopping.PainelAdministrador.Data.csproj", "{2B6F265D-CBAD-4507-B593-211615853337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshopping.PainelAdministrador.Data", "Eshopping.PainelAdministrador\Eshopping.PainelAdministrador.Data\Eshopping.PainelAdministrador.Data.csproj", "{2B6F265D-CBAD-4507-B593-211615853337}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshopping.PainelAdministrador.Logic", "Eshopping.PainelAdministrador\Eshopping.PainelAdministrador.Logic\Eshopping.PainelAdministrador.Logic.csproj", "{00B3C249-8248-48EE-A097-415356F2F045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshopping.PainelAdministrador.Logic", "Eshopping.PainelAdministrador\Eshopping.PainelAdministrador.Logic\Eshopping.PainelAdministrador.Logic.csproj", "{00B3C249-8248-48EE-A097-415356F2F045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshopping.PainelAdministrador.Rest", "Eshopping.PainelAdministrador\Eshopping.PainelAdministrador.Rest\Eshopping.PainelAdministrador.Rest.csproj", "{9BED4CCB-C1B9-4D08-BCE7-CD7BFC85B3E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshopping.PainelAdministrador.Rest", "Eshopping.PainelAdministrador\Eshopping.PainelAdministrador.Rest\Eshopping.PainelAdministrador.Rest.csproj", "{9BED4CCB-C1B9-4D08-BCE7-CD7BFC85B3E4}"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Eshopping.PainelAdministrador.View", "Eshopping.PainelAdministrador\Eshopping.PainelAdministrador.View\Eshopping.PainelAdministrador.View.njsproj", "{9CC754A7-F7DD-420B-87CE-9046D3E65EB5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9BED4CCB-C1B9-4D08-BCE7-CD7BFC85B3E4} = {9BED4CCB-C1B9-4D08-BCE7-CD7BFC85B3E4}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

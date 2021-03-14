@@ -6,6 +6,7 @@
     <Name>Eshopping.PainelAdministrador.View</Name>
     <RootNamespace>Eshopping.PainelAdministrador.View</RootNamespace>
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -25,7 +26,7 @@
     <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
     <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
     <EnableTypeScript>true</EnableTypeScript>
-    <StartWebBrowser>true</StartWebBrowser>
+    <StartWebBrowser>True</StartWebBrowser>
     <ScriptArguments>serve</ScriptArguments>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -41,7 +42,22 @@
     <Content Include="src\components\ApiClient.vue">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="src\components\AppHead.vue">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="src\components\Home.vue" />
+    <Content Include="src\components\MenuPrincipal.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\Navegacao.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\views\commons\MasterPage.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\views\MeusProdutos.vue">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -55,6 +71,8 @@
     <Folder Include="src\model\" />
     <Folder Include="src\model\infraestrutura\" />
     <Folder Include="src\infraestrutura\" />
+    <Folder Include="src\views\" />
+    <Folder Include="src\views\commons\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\infraestrutura\apiClient.ts">

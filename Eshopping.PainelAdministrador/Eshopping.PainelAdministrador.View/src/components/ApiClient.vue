@@ -1,7 +1,7 @@
 ﻿<script lang="ts">
     import { Component, Vue, Inject } from 'vue-property-decorator';
-    import { IAppSettings } from 'src/model/infraestrutura/app';
-    import { IHeaderHttp } from 'src/model/infraestrutura/rest';
+    import { IAppSettings } from '../../src/model/infraestrutura/app';
+    import { IHeaderHttp } from '../../src/model/infraestrutura/rest';
     import Axios, { AxiosInstance, AxiosRequestConfig, AxiosError, AxiosResponse, AxiosStatic } from 'axios';
 
     @Component
